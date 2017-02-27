@@ -3,6 +3,7 @@
 	<title>Mr Fox, video download tool</title>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mrfox.css">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<!--<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>-->
 </head>
@@ -21,9 +22,9 @@
 			<div class ="header_left">
 				<div class="slide" id="slide">
 					<div class="img-div">
-						<img src="resizer/resize_1.png"/>
-						<img src="resizer/resize_2.png"/>
-						<img src="resizer/resize_3.png"/>
+						<img src="mrfox/Screen_Shot2.png"/>
+						<img src="mrfox/Screen_Shot4.png"/>
+						<img src="mrfox/Screen_Shot6.png"/>
 					</div>
 					<div class="slide-btn">
 						<a href="#" class="hover">●</a>
@@ -35,10 +36,10 @@
 			<div class ="header_right">
 				<section>
 					<image class = "icon_image" src="mrfox/mr_fox.png" alt="resizer" />
-					<p><span class = "title_name">Mr Fox</span></p>
-					<p><span class = "title_blew">Download whatever video you want from website.</span></p>
+					<p><span class = "title_name">Mr Fox</span><span class = "os_version">(OSX 10.7+)</span></p>
+					<p><span class = "title_blew">Download whatever video you want from website</span></p>
 					<p class = "download_btn">
-						<a href="#"><image src="image/download.png"></image></a>
+						<a href="mrfox/mr-fox.dmg"><image src="image/download.png"></image></a>
 					</p>
 				</section>
 			</div>
@@ -48,7 +49,7 @@
 	<div class ="intro_introduce1">
 		<section>
 			<p class="intro_line1"></br>Powerful Website Video Download Tool</p>
-			<p class="intro_line2"></br>This tool can download video from website like youtube. And it make download quite easy.</br>It also can download video from other webside.how many website video support? I cannt tell you, explore with Mr Fox.</p>
+			<p class="intro_line2"></br>This tool can download video from website(e.g.youtube). And it make download quite easy.</br>It also can download video from other webside.how many website video support? I cannt tell you, explore with Mr Fox.</p>
 		</section>
 	</div>
 	<div class ="intro_introduce2">
@@ -81,47 +82,32 @@
 
 	<div class ="product_feature">
 		<div class="feature_container"> 
-			<div class="feature_left">
 				<div id="slideshow">
 				   <div>
-						<img src="resizer/resize_3.png"/>
+						<img src="mrfox/Screen_Shot1.png"/>
+						<p>Support Youtube,Vevmo,Facebook,XVideo...</p>
 				   </div>
 				   <div>
-				     	<img src="resizer/resize_4.png"/>
+						<img src="mrfox/Screen_Shot2.png"/>
+						<p>Auto fetch video meta info</p>
+				   </div>
+				   <div>
+						<img src="mrfox/Screen_Shot3.png"/>
+						<p>Download queue support</p>
+				   </div>
+				   <div>
+						<img src="mrfox/Screen_Shot4.png"/>
+						<p>Select quality you want</p>
+				   </div>
+				   <div>
+						<img src="mrfox/Screen_Shot5.png"/>
+						<p>Auto manage audio files</p>
+				   </div>
+				   <div>
+				     	<img src="mrfox/Screen_Shot6.png"/>
+						<p>Auto manage video files</p>
 				   </div>
 				</div>
-			</div>
-			<div class="feature_right">
-				<div class="feature_title">
-					<h1>Features available with easy perfert app</h1>
-				</div>
-				
-
-				<div class="feature_entity">
-					<image class = "feature_icon" src="image/feature1.png" alt="feature" />
-					<span class="feature_name">Simple to use</span>
-					</br>
-					<span class="feature_desc">only a few step needs during downloading.</span>
-				</div>
-				<div class="feature_entity">
-					<image class = "feature_icon" src="image/feature2.png" alt="feature" />
-					<span class="feature_name">Easy to download video</span>
-					</br>
-					<span class="feature_desc">each options was design for user</span>
-				</div>
-				<div class="feature_entity">
-					<image class = "feature_icon" src="image/feature3.png" alt="feature" />
-					<span class="feature_name">Powerful ability</span>
-					</br>
-					<span class="feature_desc">support many websites.</span>
-				</div>
-				<div class="feature_entity">
-					<image class = "feature_icon" src="image/feature4.png" alt="feature" />
-					<span class="feature_name">Resume broken downloads</span>
-					</br>
-					<span class="feature_desc">easy to continues downloading the broken jobs</span>
-				</div>
-			</div>
 		</div>
 	</div>
 
@@ -145,7 +131,7 @@
 	    .fadeIn(1000)
 	    .end()
 	    .appendTo('#slideshow');
-	},  3000);
+	},  6000);
 
 	zBase.init(); 
 });

@@ -27,7 +27,7 @@ body {
 .slide img{width:500px;}
 .slide-btn{width:500px;height:20px;line-height:20px;position:absolute;bottom:10px;z-index:11;text-align:center;}
 .slide-btn a{text-decoration:none;color:#B3B9B9}
-.slide-btn a.hover{color:#ccc;}
+.slide-btn a.hover{color:#9AD167;}
 
 
 /*
@@ -108,8 +108,13 @@ about menu
 	font-size: 1.5em;
 	margin: 0 0 0 20px;
 }
+.os_version{
+	color: #B0B0B0;
+	font-size: 0.8em;
+	margin: 0 0 0 20px;
+}
 .download_btn {
-	margin: 70px 0 0 20px;
+	margin: 30px 0 0 20px;
 }
 
 
@@ -161,83 +166,6 @@ about menu
 .intro_split {
 	background: #D3E8BE;
 	height: 1px;
-}
-
-
-
-/* 下面是特性介绍相关的 */
-
-
-.product_feature {
-	background: #F8F8F9;
-	height: 700px;
-}
-
-.feature_container {
-	width: 1200px;
-	height: 700px;
-	margin: 0;
-  	padding: 0;
-  	margin: 0px auto;
-}
-
-.feature_left {
-	margin: 0;
-  	padding: 0;
-	width: 600px;
-	height: 700px;
-	float: left;
-}
-#slideshow { 
-    margin: 100px 0 0 20px; 
-    position: relative; 
-    width: 500px; 
-    height: 500px; 
-    padding: 10px; 
-    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
-}
-
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
-}
-
-.feature_right {
-	margin: 0;
-  	padding: 0;
-	width: 600px;
-	height: 700px;
-	float: right;
-}
-
-.feature_title {
-	margin: 70px 0 0 0;
-}
-.feature_title h1 {
-	font-size: 2.4em;
-	color: #555;
-}
-
-.feature_entity{
-	width: 600px;
-	height: 80px;
-	margin: 40px 0 0 0;
-}
-.feature_name{
-	color: #9AD167;
-	font-size: 1.2em;
-}
-.feature_desc{
-	color: #777;
-	font-size: 0.9em;
-}
-
-.feature_icon{
-	float: left;
-  	padding: 4px 20px 0 0;
 }
 
 /* 下面是footer相关的 */

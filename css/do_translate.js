@@ -70,8 +70,6 @@ var zBase = {
 			zBase.$add(zBase.slide_btn[zBase.config.index],'hover');
 			
 		},3000)
-			
-			
 	},
 	hover:function(){
 		for(var i=0;i<this.slide_btn.length;i++){
