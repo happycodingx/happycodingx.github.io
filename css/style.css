@@ -108,15 +108,33 @@ about menu
 	font-size: 1.5em;
 	margin: 0 0 0 20px;
 }
-.os_version{
-	color: #B0B0B0;
-	font-size: 0.8em;
+
+.introduction{
 	margin: 0 0 0 20px;
 }
-.download_btn {
-	margin: 30px 0 0 20px;
+.introduction a.download {
+	display: block;
+	width: 210px;
+	background: #9AD167 no-repeat center left;
+	background-position: 20px 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.8em;
+	padding: 5px 10px 15px 80px;
+	line-height: 1.4;
+	margin: 10px 0 0 0;
+}
+.introduction a.download span {
+	font-size: 1.4em;
 }
 
+.introduction a.download:hover {
+	background-color: #f9495e;
+}
+
+.introduction a.download:active {
+	background-color: #ea3d51;
+}
 
 /* 下面是简介相关的 */
 
