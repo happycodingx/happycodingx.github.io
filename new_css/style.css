@@ -1,0 +1,151 @@
+/*
+https://snook.ca/archives/javascript/simplest-jquery-slideshow
+https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/
+
+
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+*/
+
+body {
+	background: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	color: #353b42;
+	margin: 0;
+  	padding: 0;
+  	min-width: 1200px;
+}
+
+.clear {
+	clear: all;
+}
+
+/*
+about menu
+*/
+.menu_bg {
+	background: #9AD167;
+	height: 40px;
+}
+
+.menu_container {
+	width: 1100px;
+	height: 40px;
+	margin: 0;
+  	padding: 0;
+  	margin: 0px auto;
+}
+.menu_container a.menu_item {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 0 20px 0 20px;
+	line-height: 2;
+	margin: 0;
+	float: left;
+	display: inline-block;
+}
+.menu_container a.menu_item:hover {
+	color: #f4f4f4;
+}
+
+/*
+.menu_container a.menu_item:active {
+	color: #f00;
+}
+*/
+
+.product_header_bg {
+	background: #fff;
+	color: #fff;
+	height: 700px;
+}
+
+.product_header_container {
+	width: 1200px;
+	height: 700px;
+	margin: 0;
+  	padding: 0;
+  	margin: 0px auto;
+}
+
+
+/* 下面是简介相关的 */
+
+
+.intro_container {
+	width: 1200px;
+	height: 500px;
+	margin: 0;
+  	padding: 0;
+  	margin: 0px auto;
+}
+.intro_container h1 {
+	color: #fff;
+}
+.intro_container p {
+	color: #fff;
+}
+
+.intro_introduce1 {
+	background: #9AD167;
+	height: 200px;
+	margin: 0;
+  	padding: 0;
+}
+.intro_line1 {
+	color: #fff;
+	font-size: 2.2em;
+	text-align: center;
+	margin: 0 0 0 0;
+	display: block;
+}
+
+.intro_line2 {
+	color: #fff;
+	font-size: 1.2em;
+	margin: 0 0 0 0;
+	text-align: center;
+	display: block;
+}
+
+.intro_introduce2 {
+	background: #9AD167;
+	height: 400px;
+	margin: 0;
+  	padding: 0;
+}
+.intro_split {
+	background: #D3E8BE;
+	height: 1px;
+}
+
+/* 下面是footer相关的 */
+
+
+.web_footer {
+	background: #fff;
+	display: block;
+	text-align: center;
+	height: 100px;
+	
+}
+.web_footer h1 {
+	color: #8C9393;
+	font-size: 1em;
+	text-align: center;
+	display: inline-block;
+	margin: 28px 0 0 0;
+}
+.web_footer h1 strong{
+	color: #B3B9B9;
+	font-size: 0.7em;
+}
+
+.web_footer h2 {
+	color: #B3B9B9;
+	font-size: 0.8em;
+	margin: 10px 0 0 0;
+	text-align: center;
+	display: block;
+}

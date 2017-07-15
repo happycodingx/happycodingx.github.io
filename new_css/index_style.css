@@ -1,0 +1,144 @@
+/*
+https://snook.ca/archives/javascript/simplest-jquery-slideshow
+https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/
+
+
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+*/
+
+body {
+	background: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	color: #353b42;
+	margin: 0;
+  	padding: 0;
+  	min-width: 1200px;
+  	height:100%;
+}
+
+.container {
+	min-width: 100%;
+	min-height:100%; 
+	position:relative;
+}
+
+.clear {
+	clear: all;
+}
+
+/*
+about menu
+*/
+.menu_bg {
+	background: #9AD167;
+	height: 40px;
+}
+
+.menu_container {
+	width: 1100px;
+	height: 40px;
+	margin: 0;
+  	padding: 0;
+  	margin: 0px auto;
+}
+.menu_container a.menu_item {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 0 20px 0 20px;
+	line-height: 2;
+	margin: 0;
+	float: left;
+	display: inline-block;
+}
+.menu_container a.menu_item:hover {
+	color: #f4f4f4;
+}
+
+/* 下面是每一个软件的介绍 */
+#app_list {
+	width: 600px;
+	height: 600px;
+	margin: 0;
+  	padding: 60px 0 0 0;
+  	margin: 0px auto;
+}
+
+#app_list p {
+	font-size: 0.7em;
+	font-weight: 300;
+}
+
+#app_list a.download {
+	display: block;
+	width: 490px;
+	background: #fff no-repeat center left;
+	background-position: 5px 0px;
+	color: #B5B5B5;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 5px 10px 15px 100px;
+	line-height: 1;
+	margin: 40px 0 0 0;
+}
+
+#app_list a.download:hover {
+	background-color: #9AD167;
+	color: #fff;
+}
+
+
+#app_list a.download:hover span {
+	color: #fff;
+}
+
+#app_list a.download:active {
+	background-color: #98CE65;
+	color: #f2f2f2;
+}
+#app_list a.download:active span {
+	color: #f2f2f2;
+}
+
+#app_list a.download span {
+	font-size: 1.2em;
+	line-height: 1.2;
+	color: #B0B0B0;
+}
+
+/* 下面是footer相关的 */
+
+/*
+position:absolute;
+bottom:0;
+	float: bottom;
+*/
+.web_footer {
+	background: #F8F8F9;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	position:absolute;
+	bottom:0;
+}
+.web_footer h1 {
+	color: #8C9393;
+	font-size: 1em;
+	text-align: center;
+	display: inline-block;
+	margin: 28px 0 0 0;
+}
+.web_footer h1 strong{
+	color: #B3B9B9;
+	font-size: 0.7em;
+}
+
+.web_footer h2 {
+	color: #B3B9B9;
+	font-size: 0.8em;
+	margin: 10px 0 0 0;
+	text-align: center;
+	display: block;
+}

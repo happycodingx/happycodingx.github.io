@@ -1,0 +1,9 @@
+
+Bugfix:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Feature:
+Nunc nulla lectus, iaculis at suscipit ac, consequat a dolor.
+
+Other:
+Aliquam erat volutpat. Nunc non libero quis libero vehicula ornare.

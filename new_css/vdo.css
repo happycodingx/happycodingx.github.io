@@ -1,0 +1,40 @@
+
+/* 下面是特性介绍相关的 */
+
+
+.product_feature {
+	background: #F8F8F9;
+	height: 730px;
+}
+
+.feature_container {
+	width: 1200px;
+	height: 730px;
+	margin: 0;
+  	padding: 0;
+  	margin: 0px auto;
+}
+
+#slideshow { 
+	margin-left: auto;
+	margin-right: auto;
+    position: relative; 
+    width: 732px; 
+    height: 700px; 
+    padding: 0px; 
+}
+
+#slideshow p {
+  	margin: 0px;
+    padding: 0px; 
+	font-size: 2.2em;
+	text-align: center;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
